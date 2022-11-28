@@ -9,9 +9,12 @@
         <div class="row no-gutters border mb-4">
             <div class="col p-4 mb-4 ">
                 <p class="card-text">
-                    Contoso University is a sample application that
+                    University is a std sample application that
                     demonstrates how to use Entity Framework Core in an
-                    ASP.NET Core Razor Pages web app.
+                    ASP.NET Core Razor Pages web app. What is important is
+                    the flow in K8.  Ingress --> University calls several 
+                    WebApi pods (Redis, MQ, Identity, Longhorn(CSI), ArgoCD,
+                    Prometheus, Grafana). Pod Logs can be viewed
                 </p>
             </div>
         </div>
@@ -20,6 +23,7 @@
         <div class="row no-gutters border mb-4">
             <div class="col p-4 d-flex flex-column position-static">
                 <p class="card-text mb-auto">
+                     <img src="/css/exclaim.jpg"  class="card-img-top" alt="...">
                     You can build the application by following the steps in a series of tutorials.
                 </p>
                 <p>
@@ -32,10 +36,11 @@
         <div class="row no-gutters border mb-4">
             <div class="col p-4 d-flex flex-column">
                 <p class="card-text mb-auto">
+                    <img src="/css/sq.jpg"  class="card-img-top" alt="...">
                     You can download the completed project from GitHub.
                 </p>
                 <p>
-                    <a href="https://github.com/dotnet/AspNetCore.Docs/tree/master/aspnetcore/data/ef-rp/intro/samples" class="stretched-link">See project source code</a>
+                    <a href="https://github.com/dfrazzitta/kubenet/blob/master/.github/workflows/docker-image1.yml" class="stretched-link">Source</a>  @*https://github.com/dotnet/AspNetCore.Docs/tree/master/aspnetcore/data/ef-rp/intro/samples" class="stretched-link">See project source code</a> *@
                 </p>
             </div>
         </div>

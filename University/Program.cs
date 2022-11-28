@@ -30,8 +30,8 @@ namespace University
                 var services = scope.ServiceProvider;
                 try
                 {
-                    var context = services.GetRequiredService<UniversityContext>();
-                  //  context.Database.EnsureCreated();
+                     var context = services.GetRequiredService<UniversityContext>();
+                     bool p = context.Database.EnsureCreated();
                      DbInitializer.Initialize(context);
                 }
                 catch (Exception ex)
